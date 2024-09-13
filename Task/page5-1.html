@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 20%;
+            padding: 30px;
+            align-items: center;
+            border: 1px solid black;
+        }
+        input{
+            display: inline-block;
+            margin: 3px;
+        }
+        button{
+            margin-top: 5px;
+            margin-left: 30%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <div class="container">
+        <form action="/submit">
+            <label for="firstName:">Name:</label>
+            <input type="text"name="firstName" id="firstName">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="message">Message:</label>
+            <textarea rows="3" name="message" id="message"></textarea>
+            <button>Submit</button>
+
+        </form>
+    </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body{
+            margin-top:0px ;
+            background-color: rgb(57, 1, 110);
+        }
+        .text{
+            color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+        }
+        .survey-container{
+            width:50%;
+            margin: 80px auto;
+            background-color: rgba(52, 44, 58, 0.539);
+            border-radius: 5px;
+            padding: 2%;
+            
+        }
+       .forms-items{
+            display:block;
+            width: 96%;
+            padding: 7px;
+            margin: 5px;
+            margin-bottom: 20px;
+        }
+
+        label{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text">Amman Coding Academy Survey</h1>
+    <h3 class="text">Thank you for taking time to help</h3>
+    <div class="survey-container">
+        <form action="#">
+            <label for="name">Name</label>
+            <input class="forms-items" type="text"id="name" placeholder="Your Name...">
+            <label for="email">Email</label>
+            <input class="forms-items" type="email" name="email" id="email" placeholder="Your Email...">
+            <label for="age">Age</label>
+            <input class="forms-items" type="number" name="age" id="age" placeholder="Your Age...">
+            <label for="like">How did you like my survey</label>
+            <select class="forms-items"  name="like" id="like">
+                <option value="" disabled selected>Select an option</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+                <option value="very_poor">Very Poor</option>
+            </select>
+            <label for="recommend">would you recommend my pen to a friend?</label><br>
+            <input type="radio" name="recommend"
+            id="recommend">
+            <label for="recommend">Definitely</label><br>
+            <input style="display: inline;" type="radio" name="recommend"
+            id="recommend">
+            <label for="recommend">Maybe</label><br>
+            <input style="display: inline;" type="radio" name="recommend"
+            id="recommend">
+            <label for="recommend">Not Sure</label><br><br>
+
+            <label for="favorite-feature">What is your favorite feature on codepen?</label>
+            <select class="forms-items" name="favorite-feature" id="favorite-feature">
+                <option value="1" disabled selected>select one... </option>
+                <option value="2">option 1</option>
+                <option value="3">option 2</option>
+                <option value="4">option 3</option>
+            </select>
+            <label for="suggestions-box">What do you like to see improvved in my survey?</label><br>
+            <input style="display: inline;" type="checkbox" name="suggestions" id="suggestions1">
+            <label for="suggestions1">More css</label><br>
+            <input style="display: inline;" type="checkbox" name="suggestions" id="suggestions2">
+            <label for="suggestions1">Use Js</label><br>
+            <input style="display: inline;" type="checkbox" name="suggestions" id="suggestions3">
+            <label for="suggestions1">No change required</label><br><br>
+
+            <label for="message">Any Comments??</label>
+            <textarea rows="6" class="forms-items" name="message" id="message"></textarea>
+        </form>
+    </div>
+</body>
+</html>
