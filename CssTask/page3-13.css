@@ -1,0 +1,122 @@
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #d64161;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #303030;
+    font-weight: bold;
+}
+img{
+    width:200px;
+    height: 200px;
+}
+.hero {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(https://png.pngtree.com/background/20230410/original/pngtree-food-cartoon-illustration-background-picture-image_2381344.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.NewFood-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.NewFood {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.NewFood a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d64161;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.Featured-Products {
+    margin-top: 40px;
+}
+
+.Featured-Products h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.Products {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+}
+
+
+.product a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d64161;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #d2c9c9;
+    color: #fff;
+    border-radius: 10px;
+}

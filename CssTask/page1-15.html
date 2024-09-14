@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 300px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .container{
+            background-color: cadetblue;
+        }
+        .form-container{
+            background-color: darkcyan;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red;">Cat Photo App</h1>
+    <p>Click here to view more <a href="#">cat photos</a>.</p>
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/022/963/918/small/ai-generative-cute-cat-isolated-on-solid-background-photo.jpg" alt="Cat Photo">
+  
+   <div class="container">
+    <h3>Things cats love:</h3>
+    <ul>
+      <li>Lorem, ipsum.</li>
+      <li>Lorem, ipsum.</li>
+      <li>Lorem, ipsum.</li>
+    </ul>
+  
+    <h3>Top 3 things cats hate:</h3>
+    <ol>
+      <li>Lorem, ipsum.</li>
+      <li>Lorem, ipsum.</li>
+      <li>Lorem, ipsum.</li>
+    </ol>   
+   </div>
+  <br>
+   
+  <div class="form-container">
+    <form>
+  
+        <label for="indoor">Indoor</label>
+        <input type="radio" id="indoor" name="cat-type" value="indoor">
+        <label for="outdoor">Outdoor</label>
+        <input type="radio" id="outdoor" name="cat-type" value="outdoor"><br><br>
+    
+        <label for="loving">Loving</label>
+        <input type="checkbox" id="loving" name="cat-personality" value="loving">
+        <label for="lazy">Lazy</label>
+        <input type="checkbox" id="lazy" name="cat-personality" value="lazy">
+        <label for="energetic">Energetic</label>
+        <input type="checkbox" id="energetic" name="cat-personality" value="energetic"><br><br>
+  
+    
+        <label for="cat-photo-url">Cat Photo URL:</label>
+        <input type="url" id="cat-photo-url" name="cat-photo-url">
+        <button type="submit">Submit</button>
+      </form>
+  </div>
+</body>
+</html>

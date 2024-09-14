@@ -29,3 +29,8 @@ details {
   li{
     padding: 4px;
   }
+
+
+  .container {
+    flex-direction: row | row-reverse | column | column-reverse;
+  }

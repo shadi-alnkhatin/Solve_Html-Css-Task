@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Positioning Example</title>
+<style>
+
+
+.div1 {
+  position: relative;
+  background-color: lightblue;
+  height: 100px;
+  width: 100%;
+}
+
+.div2 {
+  position: fixed;
+  bottom: 550px;
+  left: 0;
+  background-color: lightgreen;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+}
+
+.div3 {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  background-color: pink;
+  height: 100px;
+  width: 200px;
+  z-index: 1;
+}
+</style>
+</head>
+<body>
+  
+        <div class="div1">Div 1 (Relative)</div>
+        <div class="div2">Div 2 (Fixed & Z-index)</div>
+        <div class="div3">Div 3 (Absolute)</div>
+      
+</body>
+</html>
