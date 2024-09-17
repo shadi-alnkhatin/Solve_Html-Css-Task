@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Size Property</title>
+    <style>
+        .container{
+            display: flex;
+            gap:10px;
+        }
+        .items{
+            color: rgb(70, 29, 132);
+            padding: 10px;
+
+        }
+        .item1{
+            flex-grow: 2;
+            background-color: aquamarine;
+        }
+        .item2{
+            background-color: aqua;
+            flex-grow: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item1">Lorem, ipsum.</div>
+        <div class="items item2">Lorem.</div>
+    </div>
+</body>
+</html>

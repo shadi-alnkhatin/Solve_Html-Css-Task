@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Task</title>
+</head>
+<style>
+    html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;}
+    nav{
+        background-color: rgba(192, 192, 192, 0.278);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    footer{
+        background-color: rgba(192, 192, 192, 0.278);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .items ul{
+        list-style: none;
+        
+    }
+    .items ul li {
+        display: inline;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .main-section{
+        display: flex;
+        width: 50%;
+        height: 500px;
+        margin: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .main-section img {
+        width: 500px;
+    }
+    .main-section input{
+        width: 60%;
+        border-radius: 10px;
+        padding: 8px;
+    }
+    .buttons{
+        display: flex;
+        gap: 7px;
+    }
+    .main-section .buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: silver;
+    color: black;
+    border-radius: 5px;
+}
+
+</style>
+<body>
+    <head>
+        <nav>
+            <div class="items">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="items">
+                <ul>
+                    <li>Profile</li>
+                    <li style="margin-right: 40px;">Settings</li>
+                </ul>
+            </div>
+        </nav>
+    </head>
+        <main>
+            <div class="main-section">
+                <img src="https://www.shutterstock.com/shutterstock/videos/3568489951/thumb/6.jpg?ip=x480" alt="">
+                <input type="text">
+                <div class="buttons">
+                    <a href="#">DO The Thing</a>
+                    <a href="#">Do The Other Thing</a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="items">
+                <ul>
+                    <li>ADV</li>
+                    <li>Business</li>
+                </ul>
+            </div>
+            <div class="items">
+                <ul>
+                    <li>Privacy</li>
+                    <li style="margin-right: 40px;">Terms</li>
+                </ul>
+            </div>
+        </footer>
+   
+</body>
+</html>
