@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+   
+}
+.item
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-style:ridge;
+    padding: 1.5rem;
+
+}
+.image
+{
+    text-align: center;
+    height:60px;
+}
+img
+{
+    width: 30%;
+    border-radius: 10%;
+    padding: 5px;
+
+}
+.content
+{
+   padding-left: 10px;
+ ;
+   height: 200px;
+}
+.btn
+{
+  text-align: center;
+  padding: 10px;
+  align-content: flex-end;
+}
+.btn-buy
+{
+    padding: 10px;
+    width: 80%;
+    padding: 5px;
+    background-color: rgb(67, 172, 172);
+    color: aliceblue;
+    border-radius: 10px;
+   
+}
+p{
+    margin-top: -1rem;
+}

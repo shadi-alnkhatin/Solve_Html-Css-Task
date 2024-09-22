@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid3</title>
+   <style>
+    /* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    width: 80%;
+    max-width: 1200px;
+    height: 80vh;
+}
+
+.header {
+    grid-column: 1 / -1; background-color:darkturquoise;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.article {text-align: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-left: 2px solid #ddd;
+}
+
+.sidebar {
+    background-color: darkslateblue;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+}
+
+.nav {  border-right: 2px solid #ddd;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.footer {
+    grid-column: 1 / -1;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+   </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">Header</header>
+        <aside class="sidebar">sidebar</aside>
+       
+        <article class="article">Article<br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt perferendis cum placeat provident iusto illo obcaecati, tempora fugit delectus soluta facere repudiandae tenetur rerum rem unde commodi, distinctio sequi sed officia dignissimos quia. Officiis explicabo iste ducimus. Tempore veritatis reprehenderit debitis sequi. Eligendi dolore ducimus, eos possimus id autem incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit omnis nisi eveniet labore facere, vero expedita dolore perferendis deserunt, fugiat non laborum sequi sed voluptatem sit temporibus! Aliquid aut ullam cum! Alias accusantium rerum, cum illum quo eaque labore,
+                laboriosam numquam sint nobis odio reprehenderit esse officia nam repellat corporis! Temporibus odit voluptatibus minus officiis tempora odio aliquid, labore ab laboriosam eveniet, reiciendis iure voluptatum veritatis! Fugiat fuga, doloribus deserunt ipsam tempora harum magni? Incidunt quidem doloremque facilis ipsam, optio unde ad nesciunt soluta nemo fuga quibusdam deserunt aperiam asperiores minus velit laudantium consequuntur iusto quaerat! Explicabo ab temporibus cumque eum assumenda necessitatibus autem expedita deserunt vel provident dolorum aliquam quam natus nihil excepturi incidunt pariatur, repellat adipisci corporis odio! Obcaecati libero illum perferendis? Animi blanditiis excepturi dignissimos natus consequatur! Voluptates quasi aperiam error alias voluptatum natus ipsum eos facilis veniam iste expedita modi vero laborum in nihil deleniti a, qui consequuntur ipsam ratione accusamus explicabo hic dolor adipisci. Explicabo numquam fugit natus perspiciatis delectus,
+               quidem blanditiis.</p>
+        </article>
+        <nav class="nav">nav</nav>
+        <footer class="footer">Footer</footer>
+    </div>
+</body>
+</html>

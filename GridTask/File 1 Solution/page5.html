@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JS, Coding Academy, Orange">
+    <link rel="icon" href="favicon.png">
+    <title>6</title>
+
+    <style>
+        
+        .container {
+            display: grid;
+            grid-template-columns: 250px 300px 150px;
+            grid-template-rows: repeat(3, 80px);
+            grid-template-areas:
+                "a1 a2 a2"
+                "a1 a5 a6"
+                "a3 a5 a4";
+            gap: 10px;
+            padding: 2px;
+        }
+        
+    
+
+
+        .child1 {
+            background-color: blue;
+            grid-area: a1;
+            border-radius: 5px;
+        }
+
+        .child2 {
+            background-color: navy;
+            grid-area: a2;
+            border-radius: 5px;
+
+
+        }
+
+        .child3 {
+            background-color: lightblue;
+            grid-area: a3;
+            border-radius: 5px;
+
+        }
+
+        .child4 {
+            background-color: lightcoral;
+            grid-area: a4;
+           border-radius: 5px;
+
+        }
+
+        .child5 {
+            background-color: lightgreen;
+            grid-area: a5;
+              border-radius: 5px;
+
+        }
+
+        .child6 {
+            background-color: lightgreen;
+            grid-area: a6;
+              border-radius: 5px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="child1"></div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+        <div class="child4"></div>
+        <div class="child5"></div>
+        <div class="child6"></div>
+    </div>
+</body>
+
+</html>
